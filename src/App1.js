@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import Expenses from './pages/expenses';
 import Invoices from './pages/invoices';
+// import Peta from './pages/peta';
 import AppLevel2 from './js/AppLevel2';
 import { BrowserRouter, Route, Switch, Routes, Link } from 'react-router-dom'
 function App1() {
@@ -10,6 +11,7 @@ function App1() {
         <Route path="/" element={<AppLevel2 />}>
           <Route path="expenses" element={<Expenses />} />
           <Route path="invoices" element={<Invoices />} />
+          {/* <Route path="peta" element={<Peta />} /> */}
         </Route>
 
       </Routes>
