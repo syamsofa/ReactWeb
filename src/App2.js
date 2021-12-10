@@ -1,8 +1,7 @@
 import logo from './logo.svg';
 import './App2.css';
-import Home from './pages/home';
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import { Card,Layout,Menu, PageHeader,Breadcrumb, Button, Descriptions, Row, Col } from 'antd';
+import { Link } from 'react-router-dom'
+import { Card, Layout, Menu, PageHeader, Breadcrumb, Button, Descriptions, Row, Col } from 'antd';
 import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
 const { SubMenu } = Menu;
 const { Header, Content, Sider } = Layout;
@@ -19,6 +18,7 @@ function App2() {
             </Header>
             <Layout>
                 <Sider width={200} className="site-layout-background">
+               
                     <Menu
                         mode="inline"
                         defaultSelectedKeys={['1']}
@@ -26,7 +26,7 @@ function App2() {
                         style={{ height: '100%', borderRight: 0 }}
                     >
                         <SubMenu key="sub1" icon={<UserOutlined />} title="subnav 1">
-                            <Menu.Item key="1">option1</Menu.Item>
+                            <Menu.Item key="1"></Menu.Item>
                             <Menu.Item key="2">option2</Menu.Item>
                             <Menu.Item key="3">option3</Menu.Item>
                             <Menu.Item key="4">option4</Menu.Item>
