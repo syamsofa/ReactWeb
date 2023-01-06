@@ -11,6 +11,7 @@ function App1() {
         <Route path="/" element={<AppLevel2 />}>
           <Route path="expenses" element={<Expenses />} />
           <Route path="invoices" element={<Invoices />} />
+          
           {/* <Route path="peta" element={<Peta />} /> */}
         </Route>
 

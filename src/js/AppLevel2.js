@@ -3,7 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 export default function AppLevel2() {
     return (
         <div>
-            <h1>Bookkeeper</h1>
+            <h1>Simple React Antd</h1>
             <nav
                 style={{
                     borderBottom: "solid 1px",
