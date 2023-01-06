@@ -12,7 +12,8 @@ export default function AppLevel2() {
             >
                 <Link to="/invoices">Invoices</Link> |{" "}
                 <Link to="/expenses">Expenses</Link> |{" "}
-                <Link to="/peta">Peta</Link>
+                <Link to="/peta">Peta</Link> |{" "}
+                <Link to="/wweb">WhatsApp Web</Link>
             </nav>
             <Outlet />
         </div>
