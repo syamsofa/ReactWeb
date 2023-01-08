@@ -10,6 +10,7 @@ export default function AppLevel2() {
                     paddingBottom: "1rem"
                 }}
             >
+                <Link to="/login">Login</Link> |{" "}
                 <Link to="/invoices">Invoices</Link> |{" "}
                 <Link to="/expenses">Expenses</Link> |{" "}
                 <Link to="/peta">Peta</Link> |{" "}

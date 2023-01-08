@@ -3,6 +3,10 @@ import './App2.css';
 import { Link } from 'react-router-dom'
 import { Card, Layout, Menu, PageHeader, Breadcrumb, Button, Descriptions, Row, Col } from 'antd';
 import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
+// import {Client} from 'whatsapp-web.js';
+//  const { Client } = require('whatsapp-web.js');
+
+
 const { SubMenu } = Menu;
 const { Header, Content, Sider } = Layout;
 function App2() {
@@ -18,7 +22,7 @@ function App2() {
             </Header>
             <Layout>
                 <Sider width={200} className="site-layout-background">
-               
+
                     <Menu
                         mode="inline"
                         defaultSelectedKeys={['1']}
